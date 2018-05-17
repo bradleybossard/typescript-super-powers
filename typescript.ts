@@ -1,4 +1,6 @@
-const messyArray = ['something', 2, true, undefined, null];
+const messyArray:any = ['something', 2, true, undefined, null];
+
+let randomStrings: string[] = ['one', 'two', 'three'];
 
 const tuple: [number, string, string] = [24, 'what', 'e'];
 
